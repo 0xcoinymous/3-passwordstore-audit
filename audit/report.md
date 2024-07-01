@@ -1,40 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-    .full-page {
-        width:  100%;
-        height:  100vh; /* This will make the div take up the full viewport height */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .full-page img {
-        max-width:  200;
-        max-height:  200;
-        margin-bottom: 5rem;
-    }
-    .full-page div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-</style>
-</head>
-<body>
-
-<div class="full-page">
-    <!-- <img src="./LOGO-R.png" alt="Logo"> -->
-    <img src="./LOGO-R.png" alt="Logo" style="width: 300px; height: auto;">
-    <div>
-    <h1>Protocol Audit Report</h1>
-    <h3>Prepared by Coinymous</h3>
-    </div>
-</div>
-
-</body>
+    <body>
+        <div style="width:  100%; height:  100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+            <img src="./LOGO-R.png" alt="Logo" style="width: 300px; height: auto; margin-bottom: 5rem;">
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h1>Protocol Audit Report</h1>
+            <h3>Prepared by Coinymous</h3>
+            </div>
+        </div>
+    </body>
 </html>
 
 <!-- Your report starts here! -->
