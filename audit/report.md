@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <div style="width:  100%; height:  100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+        <div style="width: 100%; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <img src="./LOGO-R.png" alt="Logo" style="width: 300px; height: auto; margin-bottom: 5rem;">
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
             <h1>Protocol Audit Report</h1>
